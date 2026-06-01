@@ -29,7 +29,7 @@ void drawText(std::ofstream& file,
               const std::string& text,
               int size)
 {
-    file << R"(
+    file << R"(<?xml version="1.0" encoding="UTF-8"?>
 
     <text
     xml:space="preserve" x=")";
@@ -44,7 +44,7 @@ void drawText(std::ofstream& file,
     font-family="monospace"
     font-size=")";
 
-    file << size;
+    file << s:wize;
 
     file << R"(" > )";
 
