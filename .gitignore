@@ -1,8 +1,6 @@
 # Executables
 cardgen
 
-# Generated files
-card.svg
 
 # Vim
 *.swp
