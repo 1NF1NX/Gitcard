@@ -1,0 +1,13 @@
+# Executables
+cardgen
+
+# Generated files
+card.svg
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Object files
+*.o
