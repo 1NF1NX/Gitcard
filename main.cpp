@@ -60,7 +60,7 @@ int main()
 {
     std::ofstream file("card/card.svg");
 
-    file << R"(
+    file << R"(<?xml version="1.0" encoding="UTF-8"?>
 
 <svg width="400" height="210"
 xmlns="http://www.w3.org/2000/svg">
