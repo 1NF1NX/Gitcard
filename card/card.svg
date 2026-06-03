@@ -2,7 +2,6 @@
 
 <svg width="400" height="210"
 xmlns="http://www.w3.org/2000/svg">
-
 <rect
   width="400"
   height="210"
@@ -20,14 +19,11 @@ xmlns="http://www.w3.org/2000/svg">
   stroke-width="1"
 />
 
-
-
-    <text
+     <text
     xml:space="preserve" x="20" y="40" fill="#cdd6f4"
     font-family="monospace"
     font-size="20" > ashansud@nixos
     </text>
-
 
 
 <line
@@ -39,15 +35,11 @@ xmlns="http://www.w3.org/2000/svg">
   stroke-width="2"
 />
 
-
-
     <text
     xml:space="preserve" x="20" y="70" fill="#cdd6f4"
     font-family="monospace"
     font-size="18" > OS            : NixOS
     </text>
-
-
 
     <text
     xml:space="preserve" x="20" y="90" fill="#cdd6f4"
@@ -55,15 +47,11 @@ xmlns="http://www.w3.org/2000/svg">
     font-size="18" > Shell         : fish
     </text>
 
-
-
     <text
     xml:space="preserve" x="20" y="110" fill="#cdd6f4"
     font-family="monospace"
     font-size="18" > WM            : Hyprland
     </text>
-
-
 
     <text
     xml:space="preserve" x="20" y="130" fill="#cdd6f4"
@@ -71,23 +59,17 @@ xmlns="http://www.w3.org/2000/svg">
     font-size="18" > Language      : C++
     </text>
 
-
-
     <text
     xml:space="preserve" x="20" y="150" fill="#cdd6f4"
     font-family="monospace"
     font-size="18" > Repos         : 6
     </text>
 
-
-
     <text
     xml:space="preserve" x="20" y="170" fill="#cdd6f4"
     font-family="monospace"
     font-size="18" > Followers     : 2
     </text>
-
-
 
     <text
     xml:space="preserve" x="20" y="190" fill="#cdd6f4"

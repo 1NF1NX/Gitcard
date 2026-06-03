@@ -23,15 +23,48 @@ std::string makeStat(const Stat& stat)
     return ss.str();
 }
 
+void drawRect(std::ofstream& file) {
+  file << R"(<rect
+  width="400"
+  height="210"
+  fill="#1e1e2e"
+/>
+
+<rect
+  x="10"
+  y="20"
+  width="380"
+  height="180"
+  rx="8"
+  fill="#1e1e2e"
+  stroke="#6c7086"
+  stroke-width="1"
+/>
+
+ )";
+}
+
+void drawLine(std::ofstream& file) {
+      file << R"(
+<line
+  x1="20"
+  y1="50"
+  x2="380"
+  y2="50"
+  stroke="#cdd6f4"
+  stroke-width="2"
+/>
+
+)";
+}
+
 void drawText(std::ofstream& file,
               int x,
               int y,
               const std::string& text,
               int size)
 {
-    file << R"(<?xml version="1.0" encoding="UTF-8"?>
-
-    <text
+    file << R"(    <text
     xml:space="preserve" x=")";
 
     file << x;
@@ -44,7 +77,7 @@ void drawText(std::ofstream& file,
     font-family="monospace"
     font-size=")";
 
-    file << s:wize;
+    file << size;
 
     file << R"(" > )";
 
@@ -64,7 +97,8 @@ int main()
 
 <svg width="400" height="210"
 xmlns="http://www.w3.org/2000/svg">
-
+)";
+ /*   
 <rect
   width="400"
   height="210"
@@ -83,9 +117,12 @@ xmlns="http://www.w3.org/2000/svg">
 />
 
 )";
+*/
 
+    drawRect(file);
     drawText(file, 20, 40, "ashansud@nixos", 20);
-
+    drawLine(file);
+    /*
     file << R"(
 
 <line
@@ -98,6 +135,7 @@ xmlns="http://www.w3.org/2000/svg">
 />
 
 )";
+    */
 
     std::vector<Stat> stats =
     {
